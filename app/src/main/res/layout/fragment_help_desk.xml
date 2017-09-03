@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="জাতীয় হেল্প ডেস্ক\n৯৯৯"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/ic_call_black_24dp"
+            android:drawablePadding="-24dp"
+            android:clickable="true"
+            android:id="@+id/national_helpdesk"
+
+            />
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/native_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-6508526601344465/1324027217"
+        ads:adSize="280x80"
+        android:layout_gravity="center_horizontal"
+        android:elevation="5dp"
+        android:visibility="gone"
+        >
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বাংলাদেশ পুলিশ\n১০০"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawablePadding="-24dp"
+        android:clickable="true"
+        android:id="@+id/police_helpdesk"
+
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="র‍্যাব\n১০১"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawablePadding="-24dp"
+        android:clickable="true"
+        android:id="@+id/rab_helpdesk"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফায়ার সার্ভিস\n১০২"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawablePadding="-24dp"
+        android:clickable="true"
+        android:id="@+id/fire_service_helpdesk"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অ্যাম্বুলেন্স সার্ভিস\n১০৩"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawablePadding="-24dp"
+        android:clickable="true"
+        android:id="@+id/ambulance_helpdesk"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অ্যাটুআই(A2I) প্রগ্রাম\n১০৪"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawablePadding="-24dp"
+        android:clickable="true"
+        android:id="@+id/a2i_helpdesk"
+        />
+
+</LinearLayout>
+</ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6508526601344465/7998737468" />
+
+</FrameLayout>
